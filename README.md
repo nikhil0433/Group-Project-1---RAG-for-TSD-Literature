@@ -56,16 +56,7 @@ Google Colab is the easiest way to run the project. A GPU is optional, although 
 
 The main code sections are labeled Cells 3, 5, 7, 9, 11, 12, 13, and 14 in the notebook. Keep their original execution order, since later sections use objects created earlier.
 
-### API settings
 
-The notebook uses these defaults:
-
-```python
-OPENAI_MODEL = "@30875-fall26-openai/gpt-5-nano"
-OPENAI_BASE_URL = "https://api.portkey.ai/v1"
-```
-
-The API key itself should stay in Colab Secrets or another secure environment setting. **Do not paste the key into the notebook or include it in the submission.** The course-specific model route requires an account with access to that endpoint.
 
 ### Using a PDF ZIP that is already in Colab
 
